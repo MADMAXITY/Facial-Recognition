@@ -8,7 +8,7 @@ import numpy as np
 
 face_classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 classifier = load_model("emotions.h5")
-gender_model = load_model("gender_detection.model")
+#gender_model = load_model("gender_detection.model")
 gender_labels = ["Man", "Woman"]
 class_labels = ["Angry", "Happy", "Neutral", "Sad", "Surprise"]
 
